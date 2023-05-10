@@ -35,4 +35,4 @@ curl https://fakerapi.it/api/v1/credit_cards?_quantity=60?&_locale=es_ES
 curl https://fakerapi.it/api/v1/products?_quantity=47&_price_min=51
 
 6. Make GET call to retrieve 10 Custom objects with "pokemon", "website", and "name" fields.
-curl https://fakerapi.it/api/v1/custom?_quantity=10&customfield1=pokemon&customfield2=website&customfield3=name
+curl 'https://fakerapi.it/api/v1/custom?_quantity=10&customfield1=pokemon&customfield2=website&customfield3=name'
